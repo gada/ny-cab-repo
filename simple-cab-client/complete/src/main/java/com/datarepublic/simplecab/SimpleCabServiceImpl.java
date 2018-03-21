@@ -44,9 +44,9 @@ public class SimpleCabServiceImpl implements SimpleCabService {
 				MedalionSummery[].class);
 
 		for (MedalionSummery currMedSum : medalionSummeryies) {
-			log.info("Medallion trip summary:" + currMedSum.toString());
+			System.out.println("Medallion trip summary:" + currMedSum.toString());
 		}
-		log.info("Execution time :" + (System.currentTimeMillis() - startExecutionTime) + "(ms).");
+		System.out.println("Execution time :" + (System.currentTimeMillis() - startExecutionTime) + "(ms).");
 		return medalionSummeryies;
 
 	}
@@ -63,9 +63,9 @@ public class SimpleCabServiceImpl implements SimpleCabService {
 				MedalionSummery[].class);
 
 		for (MedalionSummery currMedSum : medalionSummeryies) {
-			log.info("Medallion trip summary:" + currMedSum.toString());
+			System.out.println("Medallion trip summary:" + currMedSum.toString());
 		}
-		log.info("Execution time :" + (System.currentTimeMillis() - startExecutionTime) + "(ms).");
+		System.out.println("Execution time :" + (System.currentTimeMillis() - startExecutionTime) + "(ms).");
 		return medalionSummeryies;
 
 	}
